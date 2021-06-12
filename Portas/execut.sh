@@ -1,0 +1,1 @@
+docker build . --tag temp && docker run --rm -p 1234:80 temp
