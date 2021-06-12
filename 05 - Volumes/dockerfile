@@ -1,0 +1,4 @@
+FROM alpine
+RUN mkdir /test
+RUN chmod 777 /test
+ENTRYPOINT [ "cat", "/test/test.txt" ]
