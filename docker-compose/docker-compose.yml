@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_URL=mongodb://mongo:27017
+    # volumes:
+    #   - .:/app
+    #   - logvolume01:/var/log
+    links:
+      - mongo
+  mongo:
+    image: mongo
