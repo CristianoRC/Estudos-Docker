@@ -11,3 +11,6 @@ Se voce não quiser passar o caminho completo da pasta local, tu podes usar o se
 ```
 "$(pwd)"/sub-pasta-local:/pasta-no-container/
 ```
+
+
+![Volumes](Volumes_localmente.png)
