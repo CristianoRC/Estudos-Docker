@@ -7,7 +7,7 @@ Cada comando em nosso DockerFile funciona como um Commit do Git, isso ajuda a te
 
 ### Principais comandos
 
-
+[Olhar este Cheatsheet](https://devhints.io/dockerfile)
 
 ### Docker History
 
