@@ -12,3 +12,6 @@ Alem de ser guardado em um lugar especifico, temos a oportunidade de guardar um 
 - Para saber informacões sobre o vlume `docker volume inspect nome-do-volume`
 
 [Documentacão com plugins de volumes](https://docs.docker.com/engine/extend/legacy_plugins/#volume-plugins)
+
+
+![Volumes-Nomeados](./volumes.png)
